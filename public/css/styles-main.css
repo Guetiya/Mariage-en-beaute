@@ -1,0 +1,703 @@
+/* *{
+  box-sizing: border-box;
+  overflow: hidden;
+}*/
+
+/*Tipografias y títulos
+========================*/
+body {
+  font-family: "Open Sans";
+}
+
+h1, h3, .main-description, .sign {
+  font-family: Parisienne;
+  color: #FF9980;
+}
+
+.main-description {
+  font-size: 55px;
+}
+
+aside a, i {
+  color: #aaa;
+}
+
+/* div .login .listanavegacionLogin, div .login .dropdown-toggle, div .login .dropdown-menu {
+  margin-left: 356px;
+  list-style-type: none;
+} */
+
+.listanavegacion, .listanavegacionLogin {
+  color : #aaa;
+}
+
+/* Estilos principales
+==============================*/
+ /*Main description*/
+ .main-description {
+   margin-top: -30px;
+ }
+
+ .center {
+   position: relative;
+ }
+
+ .sign {
+   position: absolute;
+   right: 0;
+   bottom: -17px;
+ }
+
+
+/*aside*/
+.left-col ul,
+.right-col ul {
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.pull-right {
+  text-align: right;
+}
+
+.contar{
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: #b76151;
+}
+
+.left-col ul li {
+  list-style-type: none;
+  float: left;
+}
+
+.right-col ul {
+  text-align:right;
+}
+
+.right-col .login li {
+    list-style-type: none;
+    text-align: right;
+    display: inline-block;
+    color: #aaa;
+}
+
+.dropdown {
+  list-style-type: none;
+}
+.separator {
+  margin: 0 10px;
+}
+
+.left-col .social li {
+  margin-right: 10px;
+}
+
+
+/* Search
+=============*/
+.search {
+  position: relative;
+}
+.search input {
+  padding-right: 30px;
+}
+.fa-search {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+}
+
+/* Barra de navegacion
+=============*/
+.navbar-nav {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.navbar-default {
+  background-color: inherit;
+  border-color: transparent;
+  margin-top: 20px  ;
+}
+
+.navbar-nav ul {
+  padding-left: 0;
+}
+
+.navbar-nav li {
+  list-style-type: none;
+}
+
+.navbar-nav a {
+  font-size: 15px;
+  color : black;
+  padding: 10px 15px;
+}
+
+/* Main
+================================*/
+main {
+  background-color: white; /* Otras colores posibles #e7ece6 #FF9980 */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main{
+  background-color: white;
+}
+.main_cambio{
+  background-color: #e7ece6;
+}
+
+.pagination>.active>span {
+  background-color: #e7ece6;
+  border-color: #ff9980;
+  color : #333;
+}
+/*.pagination>li>span:hover {
+  background-color: #ff9980;
+}*/
+
+.pagination>.active>span:hover {
+  background-color: #e7ece6;
+  border-color: #e7ece6;
+  color: #ff9980;
+}
+
+.pagination>li>a {
+  /*background-color: #e7ece6;
+  border-color: #e7ece6;*/
+  color : #333;
+}
+
+.posteos .class-sm-9 .firmaClient{
+  margin-left: 185px;
+}
+/* en el formulario */
+.main_registro{
+  /*background-color: white; /* Otras colores posibles #e7ece6 #FF9980 */*/
+  margin-top: 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+main h1 {
+  margin-top: 28px;
+}
+/* pagina del usuario:*/
+.nombre_usuario{
+  display:block;
+  color: #ffa38d;
+  font-size: 15px;
+}
+
+.carousel {
+  background-color: black;
+}
+
+.articulos h4 .btn-lg{
+  font-size: 14px;
+}
+/* formulario
+================================*/
+.formulario{
+  background-color: white; /* Otras colores posibles #e7ece6 #FF9980 */
+  /*height: 377px; No hacer*/
+  margin-top: 20px;
+}
+
+.login{
+  background-color: white;
+}
+
+.cover-title, .cover_p {
+  color: #aaa;
+}
+
+.carousel-inner .item img {
+  height: 266px;
+  margin-left: 900px;
+}
+
+.carousel-caption h3 {
+  margin-bottom: 24px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #f76d53fc;#823d30
+}
+
+.carousel-caption a {
+  color: #e7ece6;
+  text-decoration: none;
+}
+
+.containerCarussel {
+  background-color: black;
+}
+/* Contenido
+================================*/
+h2 {
+  font-family:'Lora', serif;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+  color: #823d30;
+  /*display: inline-block;*/
+}
+
+em {
+  /*color :#e7ece6;*/
+  font-family: Parisienne;
+  font-size: 22px;
+  color: #FF9980;
+}
+
+.articulos h4, .contenido_maquillaje h4 {
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color : #FF9980;
+}
+
+.articulosWelcome h4, .contenido_maquillaje h4 {
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color : #FF9980;
+}
+
+.articulos p .btn-lg{
+  font-size: 14px;
+  padding: 5px 9px;
+}
+.articulos h4 .btn-lg{
+  margin-left: none;
+}
+
+.row .articulosWelcome p a{
+  color : #FF9980;
+}
+
+.testimonios h2 a{
+  color : #823d30;
+}
+
+.glyphicon-menu-left {
+  margin-left: 60px;
+}
+
+.testimonios p{
+  margin: auto;
+  font-size: 13px;
+  display: inline-block;
+  color: #333;
+}
+
+.row .testimonios img {
+  margin-left: 6px;
+  margin-bottom: 11px;
+}
+
+.testimonios{
+  display: block;
+}
+
+.fa-quote-right {
+  font-size: 50px;
+  margin-left: 200px;
+  color : #e7ece6;
+}
+
+.articulos h2 {
+  margin-bottom: 25px;
+}
+/*
+articulos de index usuario:
+*/
+.Index_articulo{
+text-decoration: none;
+
+}
+
+/* Contenido quien soy?
+================================*/
+
+/*div div .articulos h2{
+font-family: Parisienne;
+}*/
+h2 a {
+  color: #823d30;
+}
+
+h4 a, h4{
+  color: #FF9980;
+ }
+
+.miNombre{
+  font-family: "Parisienne";
+}
+
+.foto_Delphine img, .fotoChampagne img{
+  border-radius: 50%;
+  padding-bottom: 14px;
+}
+
+div .foto_Delphine{
+    padding-left: 59px;
+}
+
+
+.contenidoQuienSoy h2, .contenidoMaquillaje h2 , .contenidoArticulos h2  {
+margin-top: 0px;
+margin-bottom: 20px;
+}
+
+/* Contenido maquillaje
+================================*/
+/*.contenidoMaquillaje h2 {
+margin-top: 0px;
+margin-bottom: 20px;
+}*/
+.prestacionesMaquillaje ul li{
+    list-style-type: none;
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+
+.prestacionesMaquillaje a .btn{
+  text-align: center;
+
+}
+
+.prestacionesMaquillaje li span{
+  /*text-decoration:underline;
+  text-decoration-color:#823d30;*/
+  color: #FF9980;
+  font-size: 16px;
+}
+
+hr{
+  border-top: 1px solid #e7ece6;
+}
+
+.prestacionesMaquillaje .btn-lg{
+padding: 4px 9px;
+font-size: 19px;
+margin-left: 522px;
+/*margin-bottom: 15px;*/
+
+}
+
+.btn-primary {
+  background-color: #FF9980;
+  border-color: #FF9980;
+}
+
+
+.foto p a{
+  /*margin-left: 59px;*/
+  color: #823d30;
+  font-size: 16px;
+}
+
+.foto p{
+  margin-top: 23px;
+}
+
+/* articulos attention ne va plus exister
+================================*/
+
+.foto img, .fotoNutricion img {
+  margin-left: 67px;
+}
+
+.articulos .btn1-lg {
+  font-size: 14px;
+  padding: 5px 9px;
+  margin-left: 583px;
+}
+
+/* articulosBelleza
+================================*/
+.rowBelleza .articulos a h4 {
+  font-family:'Lora', serif;
+  font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
+  color : #FF9980;
+  margin-bottom: -8px;
+}
+
+.row .articulos p{
+  margin-left: 20px;
+}
+
+.tituloNut {
+  font-family:'Lora', serif;
+  font-style: italic;
+  font-size: 22px;
+  color : #b76151;
+  font-weight: bold;
+}
+
+.tituloBelleza{
+  font-family:'Lora', serif;
+  font-style: italic;
+  font-size: 17px;
+  color : #b76151;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.titulo {
+  font-family:'Lora', serif;
+  font-style: italic;
+  font-size: 22px;
+  color : #b76151;
+  font-weight: bold;
+}
+.fotoArticulosBelleza img {
+  margin-left: 0px;
+  margin-top: 38px;
+}
+
+time {
+  color : #aaa;
+}
+
+.author {
+  margin:5px 25px 10px;
+  color: #aaa;
+}
+
+.hr {
+ margin-top: 9px;
+}
+
+.rowBelleza p span a{
+  color : #FF9980;
+}
+
+.leerMas {
+  color : #FF9980;
+}
+
+.link {
+  color : #823d30;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* articulosBelleza
+================================*/
+.rowNutricion .articulos a h4  {
+  font-family:'Lora', serif;
+  font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
+  color : #FF9980;
+}
+
+h4{
+
+}
+/* articulos articulo1
+================================*/
+h5 {
+  font-family:'Lora', serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #823d30;
+}
+
+.rowBelleza .articulos p em {
+  color: #333;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+.p {
+font-size: 18px;
+
+}
+
+.firma {
+  text-align: right;
+  font-family: "Parisienne";
+  color: #FF9980;
+  font-size: 18px;
+}
+
+/* Contenido precio
+================================*/
+.container .row .precioTitulo .col-xs-12 {
+background-color: none;
+}
+
+/* Testimonios
+================================*/
+.posteos {
+  margin-bottom: 15px;
+}
+
+
+/* Footer
+================================*/
+footer {
+  background-color: #e7ece6;
+}
+
+footer .row {
+  background-color: #e7ece6;
+}
+
+footer .left-col ul,
+footer .right-col ul {
+  padding-left: 0;
+  overflow: hidden;
+  color : #aaa;
+}
+
+footer .left-col ul li {
+  list-style-type: none;
+  float: left;
+}
+
+footer .right-col ul {
+  text-align: left;
+}
+
+footer .right-col .copyright li {
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+}
+
+footer .separator {
+  margin: 0 10px;
+}
+
+footer .left-col .social li {
+  margin-right: 10px;
+}
+
+
+/* Formularios
+================================*/
+.Formulario_registro label {
+  height: 30px;
+  font-size: 18px;
+}
+
+.campos {
+  border-color: #FAA996;
+  border-radius: 80px;
+  width: 250px;
+}
+
+.formulario button {
+  width: 100px;
+  height: 26px;
+  margin-bottom: 35px;
+}
+
+.login button {
+  width: 100px;
+  height: 26px;
+  margin-top: 20px;
+}
+.val_error{
+  color: #FF1F1F;
+}
+
+/* Contacto
+================================*/
+/*div input .form-control {
+  border-color: #FAA996;
+  border-radius: 80px;
+  width: 250px;
+}*/
+/* Testimonios
+================================*/
+section {
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    /*text-align: center;*/
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+  background-color: #333;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #FF9980;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+    color : #fff;
+    font-size: 14.5px;
+}
+.firmaClientIndex {
+  font-style: italic;
+  margin-left: 548px;
+}
+
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+/* Media Querys
+================================*/
+@media (min-width: 1200px) {
+  .sign {
+    right:48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav li {
+    width: 20%;
+  }
+}
+
+@media (max-width: 991px){
+  .main-description {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-description {
+    margin-top: 0;
+  }
+}
